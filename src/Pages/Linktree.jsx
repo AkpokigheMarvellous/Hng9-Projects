@@ -70,7 +70,7 @@ const Linktree = () => {
       <p id="slack" style={{ display: "none" }}>
         drdonice
       </p>
-      <h1 className="text-2xl py-4 font-bold">Donice Ubaru</h1>
+      <h1 className="text-2xl py-4 font-bold">Akpokighe Marvellous O.</h1>
 
       <div className="w-full md:w-4/5">
         {buttons.map((button) => (
