@@ -12,7 +12,7 @@ const Linktree = () => {
   const buttons = [
     {
       linkName: "Twitter Link",
-      href: "https://twitter.com/drdonice",
+      href: "https://twitter.com/ovigwe_",
       id: "twitter",
     },
     {
