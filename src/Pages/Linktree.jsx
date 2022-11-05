@@ -30,16 +30,7 @@ const Linktree = () => {
       href: "https://books.zuri.team/python-for-beginners?ref_id=drdonice",
       id: "book__python",
     },
-    {
-      linkName: "Background Check for Coders",
-      href: "https://background.zuri.team,",
-      id: "pitch",
-    },
-    {
-      linkName: "Design Books",
-      href: "https://books.zuri.team/design-rules ",
-      id: "book__design",
-    },
+  
   ];
 
   return (
