@@ -10,16 +10,7 @@ import { Link } from "react-router-dom"
 
 const Linktree = () => {
   const buttons = [
-    {
-      linkName: "Twitter Link",
-      href: "https://twitter.com/ovigwe_",
-      id: "twitter",
-    },
-    {
-      linkName: "Zuri Team",
-      href: "https://training.zuri.team/",
-      id: "btn__zuri",
-    },
+
     {
       linkName: "Zuri Books",
       href: "http://books.zuri.team",
@@ -30,7 +21,16 @@ const Linktree = () => {
       href: "https://books.zuri.team/python-for-beginners?ref_id=drdonice",
       id: "book__python",
     },
-  
+    {
+      linkName: "Background Check for Coders",
+      href: "https://background.zuri.team,",
+      id: "pitch",
+    },
+    {
+      linkName: "Design Books",
+      href: "https://books.zuri.team/design-rules ",
+      id: "book__design",
+    },
   ];
 
   return (
