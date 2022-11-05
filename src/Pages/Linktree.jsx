@@ -10,7 +10,16 @@ import { Link } from "react-router-dom"
 
 const Linktree = () => {
   const buttons = [
-
+    {
+      linkName: "Twitter Link",
+      href: "https://twitter.com/ovigwe_",
+      id: "twitter",
+    },
+    {
+      linkName: "Zuri Team",
+      href: "https://training.zuri.team/",
+      id: "btn__zuri",
+    },
     {
       linkName: "Zuri Books",
       href: "http://books.zuri.team",
@@ -45,12 +54,7 @@ const Linktree = () => {
       </div>
 
       <div className="container w-30 flex flex-col sm-auto justify-center items-center">
-        <img
-          src={ProfileImage}
-          alt="Profile"
-          id="profile__img"
-          className="img mt-8 w-24 rounded-full border-sky-500 md:w-28 md:hover:brightness-50"
-        />
+     
         <div class="overlay">
           <a href="/contact" class="icon">
             <FiCamera />
