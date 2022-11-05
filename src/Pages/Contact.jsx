@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Contact = () => {
-  const [name, setname] = useState('drdonice')
+  const [name] = useState('drdonice')
 
   return (
     <div className="text-left w-full m-10 md:w-3/5">

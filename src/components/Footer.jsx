@@ -12,7 +12,11 @@ const Footer = () => {
         <span className="text-gray-500 mb-2">
           HNG Internship 9 Frontend Task
         </span>
-      
+        <img
+          src={Ingresive}
+          alt="IG4"
+          className="w-28 border-sky-500 mt-2 md:w-28"
+        />
       </div>
     </footer>
   );
