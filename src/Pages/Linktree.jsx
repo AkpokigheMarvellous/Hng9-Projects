@@ -10,16 +10,7 @@ import { Link } from "react-router-dom"
 
 const Linktree = () => {
   const buttons = [
-    {
-      linkName: "Twitter Link",
-      href: "https://twitter.com/ovigwe_",
-      id: "twitter",
-    },
-    {
-      linkName: "Zuri Team",
-      href: "https://training.zuri.team/",
-      id: "btn__zuri",
-    },
+
     {
       linkName: "Zuri Books",
       href: "http://books.zuri.team",
